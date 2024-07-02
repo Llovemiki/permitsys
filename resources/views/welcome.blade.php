@@ -9,7 +9,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{ asset('templateweb')}}/assets/img/favicon.png" rel="icon">
+  <link href="/assets/images/hero-carousel/ptlogo.png" rel="icon">
   <link href="{{ asset('templateweb')}}/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -51,7 +51,7 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
+          <li><a href="#get-started">About Us</a></li>
           <li class="dropdown"><a href="#"><span>Work Permit</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Hot Work Permit</a></li>
@@ -130,15 +130,12 @@
 
     <!-- Get Started Section -->
     <section id="get-started" class="get-started section">
-
-      <div class="container">
-
-        <div class="row justify-content-between gy-4">
-
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="400">
+      <div class="container section-title" data-aos="fade-up">
+        <div class="row justify-content-between gy-10">
+          <div class="col-lg-5 align-items-start" data-aos="zoom-out" data-aos-delay="600">
             <div class="content">
-              <h3>PT.SMELTING</h3>
-              <p style="text-align: justify;">PT. Smelting adalah pabrik peleburan dan pemurnian tembaga yang pertama di Indonesia. Pendirian PT. Smelting dimulai saat PT. Freeport Indonesia mengundang Mitsubishi Materials Corporation (MMC) 
+              <h2>Tentang kami</h2>
+              <p style="text-align: justify;">PT. Smelting merupakan pabrik peleburan dan pemurnian tembaga yang pertama di Indonesia. Pendirian PT. Smelting dimulai saat PT. Freeport Indonesia mengundang Mitsubishi Materials Corporation (MMC) 
                 untuk bekerja sama membangun pabrik peleburan dan pemurnian tembaga di Indonesia pada tahun 1994. Pembangunan PT. Smelting dimulai pada tahun 1996 hingga 1998. Pada awal pendiriannya, 
                 pabrik PT. Smelting didesain untuk memproduksi 200.000 ton katoda tembaga per tahun. PT. Smelting telah melaksanakan tiga kali ekspansi pada tahun 2004, 2006, dan 2009 sehingga kapasitas produksi meningkat menjadi 300.000 ton tembaga per tahun.</p>
               <h2>VISI</h2>
@@ -146,17 +143,18 @@
               <h2>MISI</h2>
               <p style="text-align: justify;">Mewujudkan proses yang aman, sehat dan ramah lingkungan di pabrik dengan tujuan menyerahkan katoda tembaga dan produk samping kualitas terbaik kepada pelanggan secara stabil.</p>
             </div>
-        </div>
-
-        <section id="get-started" class="col-lg-5">
-            <div class="container">
-              <div class="row justify-content-around gy-2">
-                <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          </div>
+            
+            <section id="get-started" class="col-lg-5">
+              <div class="container">
+                <div class="row justify-content-around gy-1">
+                  <div class="features-image col-lg-10" data-aos="fade-down" data-aos-delay="300">
                     <img src="assets/images/maps.png" alt="">
+                  </div>
                 </div>
-            </div>
-        </section>
-        
+            </section>
+          </div>
+            
           {{--<div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
             <form action="forms/quote.php" method="post" class="php-email-form">
               <h3>Get a quote</h3>
@@ -198,35 +196,42 @@
     </section><!-- /Get Started Section -->
 
     <!-- Constructions Section -->
-    <section id="constructions" class="constructions section">
+    <section id="constructions" class="constructions section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Constructions</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Produk</h2>
+        <p>Produk-produk yang dihasilkan oleh PT.SMELTING</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container" >
 
         <div class="row gy-4">
 
+          <h3>PRODUK UTAMA</h3>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card-item">
+            <div class="card-item" style="max-width: 500px; margin: auto; border: 1px solid #ccc; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); border-radius: 5px;">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/constructions-1.jpg" alt=""></div>
+                  <div class="card-bg" style="padding: 5px;"><img src="assets/images/copper.jpeg" alt=""></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title">Eligendi omnis sunt veritatis.</h4>
-                    <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+                    <h4 class="card-title">KATODA TEMBAGA</h4>
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Nama Dagang        : Gresik Copper Cathode</p>
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Kategori           : LME Kelas A</p>  
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Berat              : 50 kg & 100 kg</p>  
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Desain Kapasitas   : 200,000 T/Y</p>  
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Kapasitas Sekarang : 300,000 T/Y</p>  
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Digunakan untuk    : Kawat, Kabel, Tube, dll</p>  
+                    <a href="http://www.ptsmelting.com/i-produk-msds-anodeslime.html">MSDS</a>
                   </div>
                 </div>
               </div>
             </div>
           </div><!-- End Card Item -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          {{-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
@@ -240,18 +245,22 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Card Item -->
+          </div><!-- End Card Item --> --}}
 
+          <h3>PRODUK SAMPINGAN</h3>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/constructions-3.jpg" alt=""></div>
+                  <div class="card-bg"><img src="assets/images/asam.png" alt=""></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title">Error beatae dolor inventore aut</h4>
-                    <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam quae quaerat ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut sunt temporibus nulla culpa.</p>
+                    <h4 class="card-title">Asam Sulfat</h4>
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Desain Awal                : 592.000 Ton/tahun</p>
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Tipikal Produksi Sekarang  : 920.000 Ton/tahun</p>  
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Penggunaan                 : Pupuk</p>   
+                    <a href="http://www.ptsmelting.com/i-produk-msds-anodeslime.html">MSDS</a>
                   </div>
                 </div>
               </div>
@@ -262,12 +271,71 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/constructions-4.jpg" alt=""></div>
+                  <div class="card-bg"><img src="assets/images/anoda.jpeg" alt=""></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title">Expedita voluptas ut ut nesciunt</h4>
-                    <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores libero nobis.</p>
+                    <h4 class="card-title">Lumpur Anoda</h4>
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Desain Awal                : 480 Ton/tahun</p>
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Tipikal Produksi Sekarang  : 1800 Ton/tahun</p>  
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Penggunaan                 : Pemurnian Emas & Perak</p>   
+                    <a href="http://www.ptsmelting.com/i-produk-msds-anodeslime.html">MSDS</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg"><img src="assets/images/slag.jpeg" alt=""></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Terak Tembaga</h4>
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Desain Awal                : 382.000 Ton/tahun</p>
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Tipikal Produksi Sekarang  : 655.000 Ton/tahun</p>  
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Penggunaan                 : Semen, Beton Cor</p>   
+                    <a href="http://www.ptsmelting.com/i-produk-msds-anodeslime.html">MSDS</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg"><img src="assets/images/gipsum.jpeg" alt=""></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Gipsum</h4>
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Desain Awal                : 31.000 Ton/tahun</p>
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Tipikal Produksi Sekarang  : 35.000 Ton/tahun</p>  
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Penggunaan                 : Semen</p>   
+                    <a href="http://www.ptsmelting.com/i-produk-msds-anodeslime.html">MSDS</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg"><img src="assets/images/telurida.jpg" alt=""></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Tembaga Telurida</h4>
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Tipikal Produksi Sekarang  : 30-40 Ton/tahun</p>  
+                    <p style="display: list-item; list-style-type: disc; margin-left: 20px;">Penggunaan                 : Pemurnian Telurida</p>   
+                    <a href="http://www.ptsmelting.com/i-produk-msds-anodeslime.html">MSDS</a>
                   </div>
                 </div>
               </div>
@@ -280,7 +348,7 @@
 
     </section><!-- /Constructions Section -->
 
-    <!-- Services Section -->
+    {{-- <!-- Services Section -->
     <section id="services" class="services section light-background">
 
       <!-- Section Title -->
@@ -363,9 +431,9 @@
 
       </div>
 
-    </section><!-- /Services Section -->
+    </section><!-- /Services Section --> --}}
 
-    <!-- Alt Services Section -->
+    {{-- <!-- Alt Services Section -->
     <section id="alt-services" class="alt-services section">
 
       <div class="container">
@@ -414,7 +482,7 @@
 
       </div>
 
-    </section><!-- /Alt Services Section -->
+    </section><!-- /Alt Services Section --> --}}
 
     <!-- Features Section -->
     <section id="features" class="features section">
@@ -538,7 +606,7 @@
 
     </section><!-- /Features Section -->
 
-    <!-- Projects Section -->
+    {{-- <!-- Projects Section -->
     <section id="projects" class="projects section">
 
       <!-- Section Title -->
@@ -711,9 +779,9 @@
 
       </div>
 
-    </section><!-- /Projects Section -->
+    </section><!-- /Projects Section --> --}}
 
-    <!-- Testimonials Section -->
+    {{-- <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
 
       <!-- Section Title -->
@@ -848,14 +916,14 @@
 
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </section><!-- /Testimonials Section --> --}}
 
     <!-- Recent Blog Posts Section -->
     <section id="recent-blog-posts" class="recent-blog-posts section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Recent Blog Posts</h2>
+        <h2>Kunjungi Laman Kami yang Lainnya</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
@@ -970,13 +1038,14 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Awak Rantau</span>
+            <span class="sitename">PT.SMELTING GRESIK</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>Maduran, Jl. Raya Roomo No.224</p>
+            <p>Kec. Manyar, Kabupaten Gresik, Jawa Timur</p>
+            <p>61151</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>(031) 3976450</span></p>
+            <p><strong>Email:</strong> <span>mb-recruit@ptsmelting.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -1040,7 +1109,7 @@
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by Awak Rantau</a>
+        Designed by Muhammad Dzaki Yaumal Atsal & Lalu Dicky Maulana Irwanto</a>
       </div>
     </div>
 
