@@ -196,7 +196,7 @@
     </section><!-- /Get Started Section -->
 
     <!-- Constructions Section -->
-    <section id="constructions" class="constructions section light-background">
+    <section id="constructions" class="constructions section yellow-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -484,7 +484,7 @@
 
     </section><!-- /Alt Services Section --> --}}
 
-    <!-- Features Section -->
+    {{-- <!-- Features Section -->
     <section id="features" class="features section">
 
       <div class="container">
@@ -604,7 +604,7 @@
 
       </div>
 
-    </section><!-- /Features Section -->
+    </section><!-- /Features Section --> --}}
 
     {{-- <!-- Projects Section -->
     <section id="projects" class="projects section">
@@ -923,8 +923,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Kunjungi Laman Kami yang Lainnya</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>BERITA</h2>
+        <p>Lihat berita menarik terkait kegiatan PT.SMELTING</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -935,15 +935,15 @@
             <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
 
               <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
+                <img src="assets/images/work1.jpg" class="img-fluid" alt="">
                 <span class="post-date">December 12</span>
               </div>
 
               <div class="post-content d-flex flex-column">
 
-                <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+                <h3 class="post-title">PT Smelting Dapat Penghargaan dari Bupati Gresik Atas Dukungannya Kepada Dekranasda</h3>
 
-                <div class="meta d-flex align-items-center">
+                {{-- <div class="meta d-flex align-items-center">
                   <div class="d-flex align-items-center">
                     <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
                   </div>
@@ -951,11 +951,11 @@
                   <div class="d-flex align-items-center">
                     <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
                   </div>
-                </div>
+                </div> --}}
 
                 <hr>
 
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <a href="https://klikjatim.com/pt-smelting-dapat-penghargaan-dari-bupati-gresik-atas-dukungannya-kepada-dekranasda/" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
               </div>
 
@@ -966,15 +966,15 @@
             <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
 
               <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">
+                <img src="assets/images/maps.png" class="img-fluid" alt="">
                 <span class="post-date">July 17</span>
               </div>
 
               <div class="post-content d-flex flex-column">
 
-                <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
+                <h3 class="post-title">PT Smelting Dukung Gelaran Batik Fashion Street dalam Dekranasda Fest 2024</h3>
 
-                <div class="meta d-flex align-items-center">
+                {{-- <div class="meta d-flex align-items-center">
                   <div class="d-flex align-items-center">
                     <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
                   </div>
@@ -982,11 +982,11 @@
                   <div class="d-flex align-items-center">
                     <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
                   </div>
-                </div>
+                </div> --}}
 
                 <hr>
 
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <a href="https://www.suarasurabaya.net/kelanakota/2024/pt-smelting-dukung-gelaran-batik-fashion-street-dalam-dekranasda-fest-2024/" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
               </div>
 
@@ -997,15 +997,15 @@
             <div class="post-item position-relative h-100">
 
               <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="">
+                <img src="assets/images/hero-carousel/pres.jpg" class="img-fluid" alt="">
                 <span class="post-date">September 05</span>
               </div>
 
               <div class="post-content d-flex flex-column">
 
-                <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
+                <h3 class="post-title">Gubernur Jatim Sambut Baik Ekspansi PT. Smelting di Gresik yang Diresmikan Presiden Jokowi66</h3>
 
-                <div class="meta d-flex align-items-center">
+                {{-- <div class="meta d-flex align-items-center">
                   <div class="d-flex align-items-center">
                     <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
                   </div>
@@ -1013,11 +1013,11 @@
                   <div class="d-flex align-items-center">
                     <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
                   </div>
-                </div>
+                </div> --}}
 
                 <hr>
 
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <a href="https://kominfo.jatimprov.go.id/berita/gubernur-jatim-sambut-baik-ekspansi-pt-smelting-di-gresik-yang-diresmikan-presiden-jokowi" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
               </div>
 
